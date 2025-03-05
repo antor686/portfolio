@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
 </head>
 
 <body>
+    <!-- This is home section start -->
     <section>
         <div class="nav">
             <div class="logo">
@@ -23,15 +26,116 @@
         <div class="body">
             <div class="content">
                 <h1>CREATIVE UI <br><span class="designer">DESIGNER</span></h1>
+                <div class="hire-btn">
                 <button class="hire-me">Hire Me</button>
-                <button class="download-cv">Download CV</button>
+                <button class="download-cv">Download CV <span class="material-symbols-outlined" style="font-size: 20px;">
+                    download
+                    </span></button>
+                </div>
             </div>
             <div class="image">
                 <img
-                    src="https://images.pexels.com/photos/414555/pexels-photo-414555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+                    src="image/home2.png" />
             </div>
         </div>
     </section>
+    <!-- This is home section end -->
+
+    <!-- This is about section start -->
+    <section class="about">
+        <div class="left-side">
+            <h3 class="title">About <span>Me</span></h3>
+            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum quo tempora,
+                repellendus ab nesciunt molestiae eligendi ea cum asperiores veritatis. <span class="read-more-btn">read
+                    more</span></p>
+        </div>
+        <div class="right-side">
+
+
+            <img src="image\image2.png" alt="">
+        </div>
+    </section>
+    <!-- This is about section end -->
+
+    <!-- This is recent work section start -->
+    <section class="recent-work">
+        <h3 class="title">My Recent <span>works</span></h3>
+        <div class="button-container">
+            <button class="filter-btn1">All</button>
+            <button class="filter-btn2">UI</button>
+            <button class="filter-btn2">UX</button>
+            <button class="filter-btn2">Web Design</button>
+        </div>
+        <div class="image-container">
+            <div class="container-image">
+                <img src="image/image4.png" alt="">
+            </div>
+            <div class="container-image">
+                <img src="image/image5.png" alt="">
+            </div>
+            <div class="container-image">
+                <img src="image/image6.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- This is recent work section end -->
+
+
+    <!-- This is contact ud section start -->
+    <section class="contact-us">
+        <div class="left-side">
+            <h3>Got a project in <br><span>mind?</span></h3>
+            <img src="image/about.png" alt="">
+        </div>
+        <form action="#" class="right-side">
+            <div class="name-email-container">
+                <div class="name">
+                    <label>Your name</label>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="email">
+                    <label for="">Your email</label>
+                    <input type="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="message">
+                <label> Your message</label>
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <button class="send-btn" type="submit">
+                <span>Send message</span>
+                <span class="material-symbols-outlined">
+                    send
+                </span>
+            </button>
+        </form>
+    </section>
+    <!-- This is contact us section end -->
+
+    <!-- This is footer section start -->
+     <section class="footer">
+        <div class="nav-bar">
+            <a href="" class="footer-home"><span class="material-symbols-outlined">
+                home
+                </span>Home</a>
+            <a href="" class="footer-about"><span class="material-symbols-outlined">
+                person
+                </span>About me</a>
+            <a href="" class="footer-contact"><span class="material-symbols-outlined">
+                call
+                </span>Contact</a>
+        </div>
+        <div class="social-links">
+            <div class="facebook"><span><i class="bi bi-facebook"></i></span></div>
+            <div class="instagram"><i class="bi bi-instagram"></i></div>
+            <div class="twitter"><i class="bi bi-twitter"></i></div>
+            <div class="youtube"><i class="bi bi-youtube"></i></div>
+        </div>
+        <div class="term-policy">
+            <span>Terms of Service - Privacy Policy</span>
+        </div>
+     </section>
+    <!-- This is footer section end -->
 </body>
 
 </html>
